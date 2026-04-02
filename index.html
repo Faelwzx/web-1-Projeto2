@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Anúncio - Carro</title>
-    <!-- Ligação com o ficheiro CSS externo -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,13 +14,13 @@
         
         <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Formulário enviado com sucesso!');">
             
-            <!-- Campo de Texto -->
+
             <div class="form-group">
                 <label for="titulo">Título do Anúncio</label>
                 <input type="text" id="titulo" name="titulo" placeholder="Ex: Honda Civic 2020 Impecável" required>
             </div>
 
-            <!-- Select (Caixa de Seleção) -->
+ 
             <div class="form-group">
                 <label for="marca">Marca do Carro</label>
                 <select id="marca" name="marca" required>
@@ -34,7 +34,7 @@
                 </select>
             </div>
 
-            <!-- Campos Numéricos lado a lado -->
+    
             <div class="form-row">
                 <div class="form-group flex-1">
                     <label for="ano">Ano</label>
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <!-- Radio Buttons (Escolha Única) -->
+
             <div class="form-group">
                 <label>Condição do Veículo</label>
                 <div class="radio-group">
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <!-- Checkboxes (Múltipla Escolha) -->
+
             <div class="form-group">
                 <label>Opcionais (Marque os que o carro possui)</label>
                 <div class="checkbox-group">
@@ -66,13 +66,13 @@
                 </div>
             </div>
 
-            <!-- Textarea (Texto longo) -->
+        
             <div class="form-group">
                 <label for="descricao">Descrição Detalhada</label>
                 <textarea id="descricao" name="descricao" rows="4" placeholder="Fale sobre quilometragem, revisões, IPVA..." required></textarea>
             </div>
 
-            <!-- Botão de Envio -->
+  
             <button type="submit" class="submit-btn">Publicar Anúncio</button>
 
         </form>
